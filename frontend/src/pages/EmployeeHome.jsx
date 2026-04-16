@@ -67,7 +67,7 @@ const EmployeeHome = () => {
     <div style={{ maxWidth: "900px", margin: "0 auto" }}>
       <div className="card" style={{ textAlign: "center", padding: "40px" }}>
         <h1 style={{ color: "var(--primary-color)", marginBottom: "10px" }}>
-          Xin chào, {user?.full_name || user?.username} 👋
+          Xin chào, {user?.full_name || user?.username}!
         </h1>
         <p style={{ color: "var(--text-light)", fontSize: "18px" }}>
           Chúc bạn một ngày làm việc hiệu quả!

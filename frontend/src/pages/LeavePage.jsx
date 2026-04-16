@@ -94,7 +94,7 @@ const LeavePage = () => {
       const data = await res.json();
 
       if (res.ok) {
-        toast.success("Gửi đơn thành công! 🚀"); // Thay alert bằng toast
+        toast.success("Gửi đơn thành công!"); // Thay alert bằng toast
         setFormData({ reason: "", start_date: "", end_date: "" });
         setTotalDays(0);
         fetchLeaves();
@@ -169,7 +169,7 @@ const LeavePage = () => {
         {/* FORM TẠO ĐƠN */}
         <div className="card" style={styles.card}>
           <h3 style={{ marginTop: 0, color: "#2563eb", marginBottom: "15px" }}>
-            📝 Tạo Đơn Mới
+            Tạo Đơn Mới
           </h3>
           <form
             onSubmit={handleSubmit}
@@ -228,7 +228,7 @@ const LeavePage = () => {
               </span>
             </div>
             <button type="submit" style={styles.button}>
-              🚀 Gửi Đơn
+              Gửi Đơn
             </button>
           </form>
         </div>

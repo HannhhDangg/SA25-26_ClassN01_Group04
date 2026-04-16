@@ -75,7 +75,7 @@ const AdminHome = () => {
       )}
 
       <h2 style={{ color: "var(--primary-color)" }}>
-        Xin chào Quản trị viên, {user?.full_name || "Admin"} 👋
+        Xin chào Quản trị viên, {user?.full_name || "Admin"}!
       </h2>
       <p style={{ color: "#666", marginBottom: "30px" }}>
         Đây là tình hình nhân sự hôm nay.
